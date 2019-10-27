@@ -18,7 +18,11 @@ body {
   color: white; }
 
 .my-filter-box-label {
-  background: #601; }
+  background: #601;
+  text-decoration: underline; }
+
+.my-filter-label {
+  padding-left: 1em; }
 
 .my-card {
   background: #faa;
