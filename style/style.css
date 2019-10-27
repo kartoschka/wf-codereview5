@@ -1,0 +1,41 @@
+.my-header {
+  background: #801;
+  color: white; }
+
+body {
+  background: #a04; }
+
+.display-none {
+  display: none; }
+
+.my-cell {
+  margin-bottom: 20px; }
+
+.my-card {
+  background: #faa;
+  height: 100%; }
+
+.my-card-img {
+  margin: 10px auto;
+  object-position: center top;
+  object-fit: cover;
+  height: 200px;
+  width: 90%;
+  border: 2px solid #f99;
+  border-radius: 5px; }
+
+.my-card-body {
+  background: #ffffffaa;
+  border-radius: 10px;
+  margin: 10px;
+  color: #801;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+q {
+  font-style: italic;
+  font-size: 1.2em;
+  position: relative;
+  word-break: break-word; }

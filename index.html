@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style/style.css" rel="stylesheet">
+  <script src="lib/config.js"></script>
+  <script src="lib/util.js"></script>
+  <script src="lib/item.js"></script>
+  <script src="lib/collection.js"></script>
+  <script src="lib/load.js"></script>
+  <style>
+  </style>
+</head>
+<body>
+  <header class="jumbotron jumbotron-fluid my-header"> 
+    <h3>HO<mark>TTT</mark> SINGLES IN UR AREA</h4>
+  </header>
+
+  <div id=main class="container-fluid">
+  </div>
+
+  <script>
+    const A = new Application({
+      root_elmt: document.getElementById("main"),
+    })
+    A.open("data/love-interests.json")
+  </script>
+</body>
+</html>
