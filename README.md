@@ -1,7 +1,7 @@
 ## Lib Files
 
 - config.js: global style configuration thing (so I don't have bootstrap classes
-  inside my base classes)
+  inside my base javascript classes)
 - util.js: independent utility functions
 - item.js: classes describing a single Item with its data and functions and
   different html representations
